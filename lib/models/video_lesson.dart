@@ -15,11 +15,11 @@ class VideoLesson {
 
   factory VideoLesson.fromJson(Map<String, dynamic> json) {
     return VideoLesson(
-      title: json['title'],
-      description: json['description'],
-      duration: json['duration'],
-      thumbnailUrl: json['thumbnailUrl'],
-      videoUrl: json['videoUrl'],
+      title: json['title'] ?? '',
+      description: json['description'] ?? '',
+      duration: json['duration'] ?? '',
+      thumbnailUrl: json['thumbnailUrl'] ?? '',
+      videoUrl: json['videoUrl'] ?? '',
     );
   }
 }

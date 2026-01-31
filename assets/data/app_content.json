@@ -2,30 +2,52 @@
     "program": [
         {
             "weekNumber": 1,
-            "title": "Săptămâna 1: Fundamente",
+            "title": "Pilonul 1: Atitudinea - Fundamentul Succesului",
+            "description": "Atitudinea este pensula minții.",
+            "homeworks": [
+                "Identifică 3 momente când ai avut o atitudine negativă și scrie cum le puteai schimba.",
+                "Zâmbește conștient de fiecare dată când intri într-o încăpere timp de o săptămână."
+            ],
             "days": [
                 {
-                    "dayName": "Luni",
+                    "dayName": "Ziua 1",
+                    "title": "Reacția Personală",
+                    "quote": "Viața este 10% ce ți se întâmplă și 90% cum reacționezi.",
+                    "quoteAuthor": "Charles Swindoll",
+                    "description": "Aceasta este o lecție esențială despre Reacția Personală. Reflectează la modul în care răspunzi provocărilor.",
                     "tasks": [
                         {
-                            "title": "Setarea obiectivelor",
+                            "title": "Alocă 5 minute de liniște pentru a reflecta.",
                             "isCompleted": false
                         },
                         {
-                            "title": "Jurnal de dimineață",
+                            "title": "Notează o idee principală în jurnalul tău.",
                             "isCompleted": false
                         }
                     ]
                 },
                 {
-                    "dayName": "Marți",
+                    "dayName": "Ziua 2",
+                    "title": "Excelența",
+                    "quote": "Excelența nu este o abilitate, ci o atitudine.",
+                    "quoteAuthor": "Ralph Marston",
+                    "description": "Calitatea acțiunilor tale determină calitatea rezultatelor. Fii excelent în lucrurile mici.",
                     "tasks": [
                         {
-                            "title": "Analiza valorilor",
-                            "isCompleted": true
-                        },
+                            "title": "Identifică un task mic și fă-l perfect.",
+                            "isCompleted": false
+                        }
+                    ]
+                },
+                {
+                    "dayName": "Ziua 7",
+                    "title": "Influența Socială",
+                    "quote": "Atitudinea este contagioasă. A ta merită luată?",
+                    "quoteAuthor": "Anonim",
+                    "description": "Mediul tău îți influențează atitudinea. Fii o sursă de pozitivitate.",
+                    "tasks": [
                         {
-                            "title": "Exercițiu de respirație",
+                            "title": "Fă un compliment sincer cuiva azi.",
                             "isCompleted": false
                         }
                     ]
@@ -33,14 +55,75 @@
             ]
         },
         {
-            "weekNumber": 2,
-            "title": "Săptămâna 2: Disciplina",
+            "weekNumber": 7,
+            "title": "Pilonul 3: Integrare & Autonomie",
+            "description": "Arhitectul Propriului Succes - Absolvirea.",
+            "homeworks": [
+                "Scrie scrisoarea către tine cel din viitor (peste 5 ani).",
+                "Creează planul tău de dezvoltare pentru următorul an."
+            ],
             "days": [
                 {
-                    "dayName": "Luni",
+                    "dayName": "Ziua 1",
+                    "title": "Creație",
+                    "quote": "Cel mai bun mod de a prezice viitorul este să-l creezi.",
+                    "quoteAuthor": "Peter Drucker",
+                    "description": "Nu aștepta oportunități, construiește-le.",
                     "tasks": [
                         {
-                            "title": "Planificare săptămânală",
+                            "title": "Scrie un obiectiv pentru anul viitor.",
+                            "isCompleted": false
+                        }
+                    ]
+                },
+                {
+                    "dayName": "Ziua 2",
+                    "title": "Responsabilitate Totală",
+                    "quote": "Tu ești arhitectul propriei tale vieți.",
+                    "quoteAuthor": "Motto",
+                    "description": "Asumă-ți responsabilitatea pentru deciziile tale.",
+                    "tasks": [
+                        {
+                            "title": "Analizează o decizie recentă.",
+                            "isCompleted": false
+                        }
+                    ]
+                },
+                {
+                    "dayName": "Ziua 3",
+                    "title": "Educație",
+                    "quote": "Educația este cea mai puternică armă pentru a schimba lumea.",
+                    "quoteAuthor": "Nelson Mandela",
+                    "description": "Învățarea continuă este cheia adaptării.",
+                    "tasks": [
+                        {
+                            "title": "Citește 10 pagini dintr-o carte.",
+                            "isCompleted": false
+                        }
+                    ]
+                },
+                {
+                    "dayName": "Ziua 4",
+                    "title": "Investiție",
+                    "quote": "Investiția în tine plătește cea mai bună dobândă.",
+                    "quoteAuthor": "Benjamin Franklin",
+                    "description": "Timpul și energia ta sunt monede. Cheltuiește-le cu înțelepciune.",
+                    "tasks": [
+                        {
+                            "title": "Identifică o abilitate nouă de învățat.",
+                            "isCompleted": false
+                        }
+                    ]
+                },
+                {
+                    "dayName": "Ziua 5",
+                    "title": "Curiozitate",
+                    "quote": "Rămâi flămând, rămâi nesăbuit.",
+                    "quoteAuthor": "Steve Jobs",
+                    "description": "Curiozitatea este motorul inovației personale.",
+                    "tasks": [
+                        {
+                            "title": "Pune o întrebare 'De ce?' astăzi.",
                             "isCompleted": false
                         }
                     ]

@@ -6,7 +6,8 @@ class ActionStep {
 
   factory ActionStep.fromJson(Map<String, dynamic> json) {
     return ActionStep(
-      title: json['title'],
+      // Maps 'text' (from data.json) or 'title' (standard) to the title field
+      title: json['title'] ?? json['text'] ?? '',
       isCompleted: json['isCompleted'] ?? false,
     );
   }

@@ -15,13 +15,19 @@ class AppContent {
 
   factory AppContent.fromJson(Map<String, dynamic> json) {
     return AppContent(
-      program: (json['program'] as List)
-          .map((i) => ProgramData.fromJson(i))
-          .toList(),
-      quotes: (json['quotes'] as List).map((i) => Quote.fromJson(i)).toList(),
-      videos: (json['videos'] as List)
-          .map((i) => VideoLesson.fromJson(i))
-          .toList(),
+      program:
+          (json['program'] as List?)
+              ?.map((i) => ProgramData.fromJson(i))
+              .toList() ??
+          [],
+      quotes:
+          (json['quotes'] as List?)?.map((i) => Quote.fromJson(i)).toList() ??
+          [],
+      videos:
+          (json['videos'] as List?)
+              ?.map((i) => VideoLesson.fromJson(i))
+              .toList() ??
+          [],
     );
   }
 }
