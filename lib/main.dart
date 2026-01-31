@@ -18,13 +18,16 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Arhitectul Succesului',
       debugShowCheckedModeBanner: false,
+
+      // Light Theme
       theme: ThemeData(
+        brightness: Brightness.light,
         useMaterial3: true,
         colorScheme: ColorScheme.fromSeed(
-          seedColor: const Color(0xFF2C3E50), // Professional Navy Blue
-          secondary: const Color(0xFFE67E22), // Energetic Orange accent
+          seedColor: const Color(0xFF2C3E50),
+          secondary: const Color(0xFFE67E22),
         ),
-        textTheme: GoogleFonts.latoTextTheme(Theme.of(context).textTheme),
+        textTheme: GoogleFonts.latoTextTheme(ThemeData.light().textTheme),
         appBarTheme: AppBarTheme(
           centerTitle: true,
           backgroundColor: const Color(0xFF2C3E50),
@@ -36,6 +39,32 @@ class MyApp extends StatelessWidget {
           ),
         ),
       ),
+
+      // Dark Theme (Added for Q4)
+      darkTheme: ThemeData(
+        brightness: Brightness.dark,
+        useMaterial3: true,
+        colorScheme: ColorScheme.fromSeed(
+          brightness: Brightness.dark,
+          seedColor: const Color(0xFF1A252F),
+          secondary: const Color(0xFFD35400),
+        ),
+        scaffoldBackgroundColor: const Color(0xFF121212),
+        textTheme: GoogleFonts.latoTextTheme(ThemeData.dark().textTheme),
+        appBarTheme: AppBarTheme(
+          centerTitle: true,
+          backgroundColor: const Color(0xFF1A252F),
+          foregroundColor: Colors.white,
+          titleTextStyle: GoogleFonts.oswald(
+            fontSize: 22,
+            fontWeight: FontWeight.bold,
+            color: Colors.white,
+          ),
+        ),
+      ),
+      // Automatically chooses theme based on system settings
+      themeMode: ThemeMode.system,
+
       home: const DataLoadingWrapper(),
     );
   }

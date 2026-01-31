@@ -3,24 +3,30 @@ import '../models/day_session.dart';
 import '../models/program_data.dart';
 
 // PILONUL 1: Implementation
-class PracticeLabScreen extends StatelessWidget {
+// Changed to StatefulWidget so checkboxes work
+class PracticeLabScreen extends StatefulWidget {
   final List<ProgramData> program;
 
   const PracticeLabScreen({super.key, required this.program});
 
+  @override
+  State<PracticeLabScreen> createState() => _PracticeLabScreenState();
+}
+
+class _PracticeLabScreenState extends State<PracticeLabScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: const Text("Laboratorul de Practică")),
       body: ListView.builder(
         padding: const EdgeInsets.all(16),
-        itemCount: program.length,
+        itemCount: widget.program.length,
         itemBuilder: (context, index) {
-          final week = program[index];
+          final week = widget.program[index];
           return Card(
             margin: const EdgeInsets.only(bottom: 20),
             child: ExpansionTile(
-              initiallyExpanded: index == 0, // Open first week by default
+              initiallyExpanded: index == 0,
               leading: CircleAvatar(
                 backgroundColor: Theme.of(context).primaryColor,
                 child: Text(
@@ -53,24 +59,33 @@ class PracticeLabScreen extends StatelessWidget {
             padding: const EdgeInsets.symmetric(vertical: 8.0),
             child: Text(
               day.dayName,
-              style: const TextStyle(
+              style: TextStyle(
                 fontSize: 16,
                 fontWeight: FontWeight.bold,
-                color: Colors.teal,
+                color: Theme.of(context).colorScheme.secondary,
               ),
             ),
           ),
+          // Here is the map with the spread operator (...)
           ...day.tasks.map(
             (task) => CheckboxListTile(
               contentPadding: EdgeInsets.zero,
-              title: Text(task.title),
+              title: Text(
+                task.title,
+                style: TextStyle(
+                  decoration: task.isCompleted
+                      ? TextDecoration.lineThrough
+                      : null,
+                  color: task.isCompleted ? Colors.grey : null,
+                ),
+              ),
               value: task.isCompleted,
               activeColor: Colors.teal,
               onChanged: (bool? value) {
-                // In a real app with state management (Provider/Bloc),
-                // we would update the state here.
-                // For this exam demo using Stateless/Stateful mix,
-                // we acknowledge it's read-only from JSON.
+                // This updates the screen immediately
+                setState(() {
+                  task.isCompleted = value ?? false;
+                });
               },
             ),
           ),
