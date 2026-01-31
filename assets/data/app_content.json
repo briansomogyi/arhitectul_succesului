@@ -3,6 +3,7 @@
         {
             "weekNumber": 1,
             "title": "Pilonul 1: Atitudinea - Fundamentul Succesului",
+            "theme": "Fundamentul Succesului",
             "description": "Atitudinea este pensula minții.",
             "homeworks": [
                 "Identifică 3 momente când ai avut o atitudine negativă și scrie cum le puteai schimba.",
@@ -28,6 +29,197 @@
                 },
                 {
                     "dayName": "Ziua 2",
+                    "title": "Perspectiva",
+                    "quote": "Atitudinea este un mic lucru care face o mare diferență.",
+                    "quoteAuthor": "Winston Churchill",
+                    "description": "Aceasta este o lecție esențială despre Perspectiva. Reflectează la modul în care vezi lucrurile.",
+                    "tasks": [
+                        {
+                            "title": "Alocă 5 minute de liniște pentru a reflecta.",
+                            "isCompleted": false
+                        },
+                        {
+                            "title": "Notează o idee principală în jurnalul tău.",
+                            "isCompleted": false
+                        }
+                    ]
+                },
+                {
+                    "dayName": "Ziua 3",
+                    "title": "Mindset Pozitiv",
+                    "quote": "Nu poți avea o viață pozitivă și o minte negativă.",
+                    "quoteAuthor": "Joyce Meyer",
+                    "description": "Aceasta este o lecție esențială despre Mindset Pozitiv. Reflectează la modul în care vezi lucrurile.",
+                    "tasks": [
+                        {
+                            "title": "Alocă 5 minute de liniște pentru a reflecta.",
+                            "isCompleted": false
+                        },
+                        {
+                            "title": "Notează o idee principală în jurnalul tău.",
+                            "isCompleted": false
+                        }
+                    ]
+                },
+                {
+                    "dayName": "Ziua 4",
+                    "title": "Dedicarea totală în activitate.",
+                    "quote": "Orice faceţi, să faceţi din toată inima, ca pentru Domnul, nu ca pentru oameni.",
+                    "quoteAuthor": "Coloseni 3:23 (VDC)",
+                    "description": "Aceasta este o lecție esențială despre Dedicarea totală în activitate. Reflectează la modul în care te implici în lucruri.",
+                    "tasks": [
+                        {
+                            "title": "Alocă 5 minute de liniște pentru a reflecta.",
+                            "isCompleted": false
+                        },
+                        {
+                            "title": "Notează o idee principală în jurnalul tău.",
+                            "isCompleted": false
+                        }
+                    ]
+                },
+                {
+                    "dayName": "Ziua 5",
+                    "title": "Sursa adevăratei fericiri.",
+                    "quote": "Cine cugetă la Cuvântul Domnului găseşte fericirea.",
+                    "quoteAuthor": "Proverbe 16:20 (VDC)",
+                    "description": "Aceasta este o lecție esențială despre Sursa adevăratei fericiri. Reflectează la modul în care te implici în lucruri.",
+                    "tasks": [
+                        {
+                            "title": "Alocă 5 minute de liniște pentru a reflecta.",
+                            "isCompleted": false
+                        },
+                        {
+                            "title": "Notează o idee principală în jurnalul tău.",
+                            "isCompleted": false
+                        }
+                    ]
+                },
+                {
+                    "dayName": "Ziua 6",
+                    "title": "Excelența",
+                    "quote": "Excelența nu este o abilitate, ci o atitudine.",
+                    "quoteAuthor": "Ralph Marston",
+                    "description": "Calitatea acțiunilor tale determină calitatea rezultatelor. Fii excelent în lucrurile mici.",
+                    "tasks": [
+                        {
+                            "title": "Identifică un task mic și fă-l perfect.",
+                            "isCompleted": false
+                        }
+                    ]
+                },
+                {
+                    "dayName": "Ziua 7",
+                    "title": "Influența Socială",
+                    "quote": "Atitudinea este contagioasă. A ta merită luată?",
+                    "quoteAuthor": "Anonim",
+                    "description": "Mediul tău îți influențează atitudinea. Fii o sursă de pozitivitate.",
+                    "tasks": [
+                        {
+                            "title": "Fă un compliment sincer cuiva azi.",
+                            "isCompleted": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "weekNumber": 2,
+            "title": "Pilonul 2: Axiomele Performanței",
+            "theme": "Caracter și Comunicare",
+            "description": "Pastilele de înțelepciune și fundamentele caracterului.",
+            "homeworks": [
+                "Citește un articol despre comunicarea asertivă.",
+                "Cere feedback onest de la un prieten despre cum comunici."
+            ],
+            "days": [
+                {
+                    "dayName": "Ziua 1",
+                    "title": "Reacția Personală",
+                    "quote": "Viața este 10% ce ți se întâmplă și 90% cum reacționezi.",
+                    "quoteAuthor": "Charles Swindoll",
+                    "description": "Aceasta este o lecție esențială despre Reacția Personală. Reflectează la modul în care răspunzi provocărilor.",
+                    "tasks": [
+                        {
+                            "title": "Alocă 5 minute de liniște pentru a reflecta.",
+                            "isCompleted": false
+                        },
+                        {
+                            "title": "Notează o idee principală în jurnalul tău.",
+                            "isCompleted": false
+                        }
+                    ]
+                },
+                {
+                    "dayName": "Ziua 2",
+                    "title": "Perspectiva",
+                    "quote": "Atitudinea este un mic lucru care face o mare diferență.",
+                    "quoteAuthor": "Winston Churchill",
+                    "description": "Aceasta este o lecție esențială despre Perspectiva. Reflectează la modul în care vezi lucrurile.",
+                    "tasks": [
+                        {
+                            "title": "Alocă 5 minute de liniște pentru a reflecta.",
+                            "isCompleted": false
+                        },
+                        {
+                            "title": "Notează o idee principală în jurnalul tău.",
+                            "isCompleted": false
+                        }
+                    ]
+                },
+                {
+                    "dayName": "Ziua 3",
+                    "title": "Mindset Pozitiv",
+                    "quote": "Nu poți avea o viață pozitivă și o minte negativă.",
+                    "quoteAuthor": "Joyce Meyer",
+                    "description": "Aceasta este o lecție esențială despre Mindset Pozitiv. Reflectează la modul în care vezi lucrurile.",
+                    "tasks": [
+                        {
+                            "title": "Alocă 5 minute de liniște pentru a reflecta.",
+                            "isCompleted": false
+                        },
+                        {
+                            "title": "Notează o idee principală în jurnalul tău.",
+                            "isCompleted": false
+                        }
+                    ]
+                },
+                {
+                    "dayName": "Ziua 4",
+                    "title": "Dedicarea totală în activitate.",
+                    "quote": "Orice faceţi, să faceţi din toată inima, ca pentru Domnul, nu ca pentru oameni.",
+                    "quoteAuthor": "Coloseni 3:23 (VDC)",
+                    "description": "Aceasta este o lecție esențială despre Dedicarea totală în activitate. Reflectează la modul în care te implici în lucruri.",
+                    "tasks": [
+                        {
+                            "title": "Alocă 5 minute de liniște pentru a reflecta.",
+                            "isCompleted": false
+                        },
+                        {
+                            "title": "Notează o idee principală în jurnalul tău.",
+                            "isCompleted": false
+                        }
+                    ]
+                },
+                {
+                    "dayName": "Ziua 5",
+                    "title": "Sursa adevăratei fericiri.",
+                    "quote": "Cine cugetă la Cuvântul Domnului găseşte fericirea.",
+                    "quoteAuthor": "Proverbe 16:20 (VDC)",
+                    "description": "Aceasta este o lecție esențială despre Sursa adevăratei fericiri. Reflectează la modul în care te implici în lucruri.",
+                    "tasks": [
+                        {
+                            "title": "Alocă 5 minute de liniște pentru a reflecta.",
+                            "isCompleted": false
+                        },
+                        {
+                            "title": "Notează o idee principală în jurnalul tău.",
+                            "isCompleted": false
+                        }
+                    ]
+                },
+                {
+                    "dayName": "Ziua 6",
                     "title": "Excelența",
                     "quote": "Excelența nu este o abilitate, ci o atitudine.",
                     "quoteAuthor": "Ralph Marston",
