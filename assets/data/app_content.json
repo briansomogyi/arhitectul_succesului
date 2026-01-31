@@ -1,0 +1,100 @@
+{
+    "program": [
+        {
+            "weekNumber": 1,
+            "title": "Săptămâna 1: Fundamente",
+            "days": [
+                {
+                    "dayName": "Luni",
+                    "tasks": [
+                        {
+                            "title": "Setarea obiectivelor",
+                            "isCompleted": false
+                        },
+                        {
+                            "title": "Jurnal de dimineață",
+                            "isCompleted": false
+                        }
+                    ]
+                },
+                {
+                    "dayName": "Marți",
+                    "tasks": [
+                        {
+                            "title": "Analiza valorilor",
+                            "isCompleted": true
+                        },
+                        {
+                            "title": "Exercițiu de respirație",
+                            "isCompleted": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "weekNumber": 2,
+            "title": "Săptămâna 2: Disciplina",
+            "days": [
+                {
+                    "dayName": "Luni",
+                    "tasks": [
+                        {
+                            "title": "Planificare săptămânală",
+                            "isCompleted": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "quotes": [
+        {
+            "text": "Cunoștințele au un termen de valabilitate; caracterul și abilitatea de a comunica sunt eterne.",
+            "author": "Axioma 1"
+        },
+        {
+            "text": "Autenticitatea este cea mai puternică formă de persuasiune; dezvoltă-ți caracterul și competențele vor urma.",
+            "author": "Axioma 2"
+        },
+        {
+            "text": "Empatia se antrenează prin curiozitate autentică față de perspectiva celui cu care nu ești de acord.",
+            "author": "Axioma 3"
+        },
+        {
+            "text": "Reziliența nu se dezvoltă în absența furtunii, ci prin învățarea modului de a naviga în timpul ei.",
+            "author": "Axioma 4"
+        },
+        {
+            "text": "Managementul timpului începe cu managementul priorităților și se termină cu disciplina de a spune 'nu'.",
+            "author": "Axioma 5"
+        },
+        {
+            "text": "Succesul este 15% competență tehnică și 85% inginerie umană – capacitatea de a relaționa cu oamenii.",
+            "author": "Axioma 6"
+        }
+    ],
+    "videos": [
+        {
+            "title": "Introducere în Program",
+            "description": "Bun venit în Arhitectul Propriului Succes. Structura celor 7 săptămâni.",
+            "duration": "5:30",
+            "thumbnailUrl": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=600&auto=format&fit=crop",
+            "videoUrl": "https://www.youtube.com/watch?v=placeholder1"
+        },
+        {
+            "title": "Lecția 1: Mindset de Creștere",
+            "description": "Cum să transformi eșecul într-o oportunitate de învățare.",
+            "duration": "12:45",
+            "thumbnailUrl": "https://images.unsplash.com/photo-1552664730-d307ca884978?q=80&w=600&auto=format&fit=crop",
+            "videoUrl": "https://www.youtube.com/watch?v=placeholder2"
+        },
+        {
+            "title": "Lecția 2: Gestionarea Timpului",
+            "description": "Tehnica Pomodoro și Prioritizarea Eisenhower.",
+            "duration": "08:20",
+            "thumbnailUrl": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=600&auto=format&fit=crop",
+            "videoUrl": "https://www.youtube.com/watch?v=placeholder3"
+        }
+    ]
+}
